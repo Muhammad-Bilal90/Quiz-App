@@ -38,4 +38,4 @@ jobs:
 
       # Deploy Surge
       - name: Deploy React App to Surge
-        run: surge ./build quiz-app-by-bilal.surge.sh  --token ${{ secrets.QUIZ_SURGE_TOKEN }}
+        run: surge ./build http://quiz-app-by-bilal.surge.sh/  --token ${{ secrets.QUIZ_SURGE_TOKEN }}

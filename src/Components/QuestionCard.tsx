@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { QuestionPropsTypes } from "./../Types/types";
 // mui
 import { makeStyles } from "@material-ui/core/styles";
-import { Button, Box, Radio, RadioGroup, FormControlLabel, FormControl, Typography, Divider, CircularProgress } from "@material-ui/core";
+import { Button, Box, Radio, RadioGroup, FormControlLabel, FormControl, Typography, Divider, } from "@material-ui/core";
 
 const useStyle = makeStyles((theme) => ({
     QuizStart: {
